@@ -1,8 +1,15 @@
 💰 Personal Expense Tracker (Full-Stack)A modern, glassmorphic financial dashboard built to demonstrate a clean decoupled architecture. This application allows users to manage their cash flow with a React-based UI that communicates via a RESTful API to a Python/Flask backend.
 
 🎯 Core FeaturesReal-time Analytics: Automated calculation of Total Balance, Income, and Expenses.Persistence: SQLite database integration ensures data is saved across sessions.Glassmorphic UI: A premium, modern interface using CSS backdrop-filter and SVG iconography.RESTful API: Clean separation of concerns between the data layer and the presentation layer.
+[!Homepage]
+💻 Tech StackLayer
+FrontendReact 18 (Vite)CSS Modules,
+Fetch API
 
-💻 Tech StackLayerTechnologyKey LibraryFrontendReact 18 (Vite)CSS Modules, Fetch APIBackendPython 3.9+Flask, Flask-CORSDatabaseSQLiteFlask-SQLAlchemy (ORM)
+BackendPython 3.9+Flask,
+Flask-CORSDatabase
+
+SQLiteFlask-SQLAlchemy (ORM)
 
 
 🛠️ Rapid Setup
@@ -10,7 +17,6 @@
 1. Backend (API)The backend manages the database and serves the transaction data.Bashcd backend
 python -m venv venv
 source venv/bin/activate  
-# Windows: venv\Scripts\activate
 pip install Flask Flask-CORS Flask-SQLAlchemy
 python app.py
 Note: The server runs on http://localhost:5000. It will automatically generate expenses.db on launch.
